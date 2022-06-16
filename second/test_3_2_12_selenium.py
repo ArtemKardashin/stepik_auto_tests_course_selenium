@@ -62,7 +62,7 @@ class Testreg(unittest.TestCase):
         # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
         self.assertEqual("Congratulations! You have successfully registered!", welcome_text, 'ошибка сука')
 
-    def test_reg3(self):
+    def test_abs(self):
         self.assertEqual(abs(-42), 42, "верно")
 
     def test_abs2(self):
